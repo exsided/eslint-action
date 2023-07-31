@@ -13,9 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     # permissions: write-all
     permissions:
-      actions: write
-      repository-projects: write
-      pull-requests: write
+      contents: read
 
     steps:
       - name: Checkout code
