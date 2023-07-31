@@ -11,7 +11,9 @@ on:
 jobs:
   eslint:
     runs-on: ubuntu-latest
-    permissions: write-all
+    # permissions: write-all
+    permissions:
+      pull-requests: write
 
     steps:
       - name: Checkout code
