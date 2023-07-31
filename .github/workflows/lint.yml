@@ -13,8 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     # permissions: write-all
     permissions:
-      repository-projects: read
-      actions: read|write
+      actions: write-all
       pull-requests: write
 
     steps:
