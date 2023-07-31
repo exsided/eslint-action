@@ -1,6 +1,7 @@
 <template>
   <div>
     <NuxtWelcome />
+    <TestComponents msg="месседж" />
   </div>
 </template>
 
